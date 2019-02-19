@@ -53,6 +53,7 @@ cout << students[i].name
     }
 cout << endl;
 }
+  cout << "El programa terminó" << endl;
 return 0;
 }
 
