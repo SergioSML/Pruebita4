@@ -21,11 +21,13 @@ int main()
     Student_info record;
     string::size_type maxlen = 0;   // the length of the longest name
 
+  //probando comentarios.
 
     while (read(cin, record)){
     // find length of longest name
     maxlen = max(maxlen, record.name.size());
     students.push_back(record);
+      cout << "Estudiante leido. Van " << students.size() << endl;
     }
 
     // alphabetize the student records
